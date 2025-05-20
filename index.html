@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta author="Matheus Giacobelli Cardoso">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Matheus Giacobelli Cardoso</h1>
+  <p>Olá, me chamo Matheus, tenho 26 anos, moro em Santa Bárbara do Oeste e estou entrando no mundo da programação</p>
+  <button id="botaoMensagem">Clique para ver uma mensagem!</button>
+  <div id="mensagem"></div>
+  <ul>
+    <li>Jogar Futebol</li>
+    <li>Assistir Filmes e Séries</li>
+    <li>Ir para Academia</li>
+  </ul>
+  <img class="imgfutebol" src="https://img.olhardigital.com.br/wp-content/uploads/2017/07/20170718162719.jpg" alt="Futebol">
+  <table>
+    <tr>
+      <th>Nome do País</th>
+      <th>Imagem do País</th>
+    </tr>
+    <tr>
+      <td>Estados Unidos</td>
+      <td><img src="https://th.bing.com/th/id/OIP.TPtcuFsKcUSeDUtRnM264gHaE8?rs=1&pid=ImgDetMain" alt="Estados Unidos"></td>
+    </tr>
+    <tr>
+      <td>Japão</td>
+      <td><img src="https://th.bing.com/th/id/R.fae8cc9e6be68a4f60adc95c863a002b?rik=UTZ9FdjPbhx53w&pid=ImgRaw&r=0" alt="Japão"></td>
+    </tr>
+    <tr>
+      <td>França</td>
+      <td><img src="https://www.guiadasemana.com.br/contentFiles/image/2019/04/FEA/59124_torre-eiffel.jpg" alt="França"></td>
+    </tr>
+  </table>
+  <a href="https://canaltech.com.br/">Canal Tech</a>
+
+  <script>
+    document.getElementById('botaoMensagem').addEventListener('click', function () {
+      document.getElementById('mensagem').textContent = "Bem-vindo ao meu primeiro site!";
+    });
+  </script>
+
+</body>
+
+</html>
